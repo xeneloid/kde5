@@ -4,13 +4,12 @@
 # Depends on : kf5-extra-cmake-modules python kf5-kdoctools kf5-kdelibs4support kf5-kcoreaddons kpimtextedit
 
 name=kidentitymanagement
-version=15.12.3
+version=16.04.1
 release=1
 
 source=( http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
-
   mkdir build
   cd build
   cmake ../$name-$version \
