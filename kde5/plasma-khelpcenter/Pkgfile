@@ -7,7 +7,7 @@ _name=khelpcenter
 release=2
 
 build() {
-cd ${_name}-$version
+cd ${_name}-*
 mkdir build
 cd    build
 cmake -DCMAKE_INSTALL_PREFIX=/usr       \
